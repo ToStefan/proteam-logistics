@@ -37,9 +37,7 @@ const observer = new IntersectionObserver(
 document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
 
 // Driver application form — opens a pre-filled email draft.
-// TODO: replace RECRUITING_EMAIL with the company inbox, or swap to a
-// form service (Formspree / FormSubmit) once the company email is confirmed.
-const RECRUITING_EMAIL = "info@proteamlogistics.com";
+const RECRUITING_EMAIL = "recruiting@proteamlogisticsllc.com";
 
 document.getElementById("applyForm").addEventListener("submit", (e) => {
   e.preventDefault();
